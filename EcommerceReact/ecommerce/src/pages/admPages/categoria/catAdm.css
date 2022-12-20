@@ -1,0 +1,97 @@
+.categoriaAdm-main{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-adm-section{
+    margin-top: 20px;
+    margin-bottom: -60px;
+}
+
+.catadm-container{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .cat-views{
+} */
+
+.links-move{
+    padding: 6px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.catadm-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 14px;
+}
+
+.categoriaAdm-title{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-style: italic;
+}
+
+.buttons-cmd{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+}
+
+.buttons-cmd-child{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+.form-edit{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.form-edit-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-edit-content input{
+    width: 200px;
+    height: 30px;
+}
+
+.form-edit-content button{
+    width: 100px;
+    height: 30px;
+}
+
+.txt-atualizar{
+    font-size: 1.2rem;
+    font-style: italic;
+}

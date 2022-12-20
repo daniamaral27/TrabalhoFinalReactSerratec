@@ -1,0 +1,126 @@
+.contato {
+  margin-top: 70px;
+  width: 100%;
+  height: 742px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+  background-color: rgb(219, 219, 219);
+
+  background-image: url(../assets/banner_contato3.jpg);
+  background-size: cover;
+  background-position: 0rem;
+  background-size: cover;
+}
+
+.wrap-contato{
+  width: 48%;
+  background-color: rgba(14, 12, 12, 0.808);
+  border-radius: 4%;
+  overflow: hidden;
+  padding: 45px 25px 33px 25px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato-titles {
+  width: 100%;
+  color: rgb(243, 235, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  max-width: 800px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-inline: 10px;
+}
+
+.main-form {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.main-form-title {
+  color: rgb(243, 235, 235);
+  width: 70%;
+}
+
+.main-form input,
+.main-form textarea {
+  width: 70%;
+  padding-left: 10px;
+  border-color: white;
+  background-color:transparent;
+}
+
+.main-form input {
+  height: 30px;
+}
+
+.main-button {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button-v,
+.button-e {
+  padding-inline: 28px;
+  padding-block: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-v:hover {
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+.button-e {
+  background-color: rgb(255, 255, 255);
+}
+
+.button-v {
+  background-color: rgb(255, 255, 255);
+}
+
+.button-e:hover {
+    background-color: black;
+    color: white;
+}
+
+@media  screen and (max-width: 668px) {
+  .contato-titles{
+    font-size: 0.6rem;
+    padding-inline: 4px;
+  }
+
+  .button-v,
+  .button-e {
+    padding-inline: 12px;
+    padding-block: 6px;
+  }
+
+  .wrap-contato{
+    width: 90%;
+  }
+
+}
+
+
+
+

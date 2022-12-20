@@ -1,0 +1,136 @@
+.carregamento {
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    font-style: italic;
+}
+
+.produto-unico{
+    margin-top: 70px;
+    height: 80vh;
+    width: 100%;
+}
+
+.produto-container {
+    width: 100%;
+    height: 100%;
+}
+
+.produto-content{
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-produto{
+    height: 400px;
+    width: 400px;
+}
+
+.produto-description{
+    padding-top: 6%;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 1.3rem;
+}
+
+.categoria{
+    font-style: italic;
+}
+
+.produto-quantidade{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+    margin-block: 10px;
+}
+
+.produto-quantidade button{
+    padding-inline: 18px;
+    padding-block: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.produto-quantidade p{
+    font-size: 1.2rem;
+}
+
+.button-carrinho{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-carrinho button, .navlink{
+    width: 100%;
+    padding: 14px 24px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons-links-pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-links{
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+}
+
+.txt-button-links{
+    color: white;
+}
+
+.buttons-links-pages button .navLink{
+    background-color: brown;
+}
+
+@media screen and (max-width:850px) {
+    .img-produto{
+        height: 200px;
+        width: 200px;
+    }
+
+    .produto-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .produto-unico{
+        margin-top: 120px;
+        height: 84vh;
+    }
+
+    .produto-description{
+        width: 80%;
+    }
+}

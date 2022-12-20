@@ -1,0 +1,72 @@
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_container {
+    height: 70vh;
+    width: 100%;
+    background-image: url("../assets/banner_sobre.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: -200px 0 0 -70px;
+
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.sobre_pt_1 {
+    width: 100%;
+    min-height: 500px;
+    left: 0px;
+    top: 1982px;
+    background: linear-gradient(180deg, black 10%, #313131 50%, #606060 100%, #F0F0F0 80%);
+}
+
+.introducao {
+    padding: 70px;
+}
+
+.mapa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa img {
+    width: 40%;
+    height: 240px;
+    margin-bottom: 40px;
+}
+
+.texto {
+    color: #F0F0F0;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sobre_pt_2 {
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 140px;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #606060;
+    box-shadow: #000000;
+}
+
+
